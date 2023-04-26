@@ -37,6 +37,6 @@ streamlit.text(fruityvice_response.json())
 # this pulls the fruits into a variable
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # this adds the border for fruit display?
-#streamlit.dataframe(fruityvice_normalized)
+streamlit.dataframe(fruityvice_normalized)
 
 
