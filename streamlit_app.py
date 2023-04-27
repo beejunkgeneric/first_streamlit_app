@@ -47,7 +47,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # this adds the border for fruit display?
 streamlit.dataframe(fruityvice_normalized)
 
-import snowflake.connector-python
+import snowflake.connector
 
 
 
